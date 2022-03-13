@@ -1,0 +1,78 @@
+.login {
+  width: 40%;
+  margin: 5% 30%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaa;
+  padding: 30px;
+}
+
+.login ul {
+  list-style: none;
+  font-family: sans-serif;
+  padding: 0px;
+}
+
+.login li {
+  width: 40%;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: aliceblue;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.login li:hover {
+  background-color: rgb(132, 193, 196);
+  border-radius: 5px;
+}
+
+.login li a {
+  text-decoration: none;
+  color: black;
+}
+
+#active {
+  border-bottom: 2px solid brown;
+}
+
+.login form input {
+  font-size: medium;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid brown;
+  border-radius: 5px;
+  margin: 2% 5%;
+  width: 80%;
+}
+
+.login form button {
+  background-color: forestgreen;
+  color: white;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: medium;
+  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.login form button:hover {
+  background-color: green;
+  border-radius: 5px;
+}
+
+.login form a {
+  font-family: Calibri;
+  color: brown;
+  padding: 8px;
+  margin-left: 2%;
+}
+
+.login form a:hover {
+  opacity: 0.7;
+}
